@@ -10,7 +10,7 @@ import (
 )
 
 const city = "Beslan"
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Beslan&appid=YOUR_API_KEY"
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Beslan&appid=YOUR_API_KEY" //поменять api
 
 func main() {
 	file, err := os.OpenFile("weather_data.csv", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
